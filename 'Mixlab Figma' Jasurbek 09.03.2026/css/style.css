@@ -1,0 +1,454 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+/* header header header header header header header header header */
+/* header header header header header header header header header */
+/* header header header header header header header header header */
+
+.header {
+    background-color: #fff;
+}
+
+.header__menu ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header__menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header__menu ul li a:hover {
+    color: orangered;
+    transition: 0.3s;
+}
+
+.header__title h1 {
+    color: orange;
+}
+
+.header__btn {
+    display: flex;
+    gap: 50px;
+}
+
+b {
+    color: rgba(111, 30, 170, 1);
+}
+
+b:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.btn-purple {
+    background-color: purple;
+    padding: 5px 15px;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border: 1px solid purple;
+}
+
+.btn-purple:hover {
+    color: purple;
+    background-color: transparent;
+    border: 1px solid purple;
+    transition: 0.3s;
+}
+
+.header__bars {
+    display: none;
+    padding: 0 30px;
+    font-size: 40px;
+}
+
+@media (max-width:768px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__bars {
+        display: block;
+    }
+}
+
+/* home home home home home home home home home home home home */
+/* home home home home home home home home home home home home */
+/* home home home home home home home home home home home home */
+
+.home {
+    background-color: rgb(254, 247, 229, 1);
+    padding: 100px 0 0 0;
+    position: relative;
+}
+
+.home .container {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home__title h1 {
+    font-size: 45px;
+}
+
+.home__title h6 {
+    font-size: 15px;
+}
+
+.img-home {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.img-background {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+}
+
+/* best best best best best best best best best best best best best */
+/* best best best best best best best best best best best best best */
+/* best best best best best best best best best best best best best */
+
+
+.best {
+    padding: 20px;
+}
+
+.best__title h1 {
+    font-family: serif;
+    font-size: 40px;
+}
+
+.best__title p {
+    padding: 20px 0;
+}
+
+.best__title {
+    padding: 10px;
+}
+
+.best p {
+    position: relative;
+}
+
+.best p:after {
+    content: " ";
+    width: 100%;
+    height: 2px;
+    background-color: rgba(247, 165, 0, 1);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: -20px 0;
+}
+
+/* work work work work work work work work work work work */
+/* work work work work work work work work work work work */
+/* work work work work work work work work work work work */
+
+.work {
+    padding: 200px 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    gap: 20px;
+}
+
+.work__img {
+    padding: 40px 0;
+}
+
+/* practice practice practice practice practice practice practice practice */
+/* practice practice practice practice practice practice practice practice */
+/* practice practice practice practice practice practice practice practice */
+
+.practice {
+    background-color: rgba(246, 243, 250, 1);
+}
+
+.practice__title h5 {
+    color: orange;
+}
+
+.practice__title h1 {
+    padding: 0 0 20px 0;
+    font-size: 40px;
+}
+
+.practice__title p {
+    padding: 0 0 30px 0;
+}
+
+/* pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets */
+/* pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets */
+/* pets pets pets pets pets pets pets pets pets pets pets pets pets pets pets */
+
+
+.pets {
+    padding: 100px;
+}
+
+
+.pets .pets__title {
+    text-align: center;
+    position: relative;
+}
+
+.pets__card {
+    display: flex;
+    gap: 50px;
+    padding: 60px 10px 10px;
+    background-color: rgba(223, 245, 246, 1);
+    border-radius: 20px;
+    line-height: 25px;
+
+}
+
+.pets__card .pets__title {
+    text-align: left;
+}
+
+.pets__title {
+    padding: 20px;
+}
+
+.pets__content {
+    display: flex;
+}
+
+.pets__img {
+    position: absolute;
+    top: 3000px;
+    left: 1120px;
+}
+
+@media (max-width:992px) {
+    .pets__img {
+        position: absolute;
+        left: 500px;
+        top: 3100px;
+    }
+}
+
+@media (max-width:768px) {
+    .pets__img {
+        position: absolute;
+        left: 500px;
+        top: 3200px;
+    }
+}
+
+@media (max-width:576px) {
+    .pets__img {
+        position: absolute;
+        left: 400px;
+        top: 3350px;
+    }
+}
+
+
+/* wild wild wild wild wild wild wild wild wild wild wild wild wild */
+/* wild wild wild wild wild wild wild wild wild wild wild wild wild */
+/* wild wild wild wild wild wild wild wild wild wild wild wild wild */
+
+.wild {
+    background-color: rgba(250, 249, 246, 1);
+    padding: 30px;
+    position: relative;
+}
+
+.wild .container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.wild__title {
+    text-align: center;
+    padding: 50px;
+}
+
+.wild__card {
+    background-color: #fff;
+    border: 1px solid plum;
+}
+
+.wild__content {
+    padding: 20px;
+}
+
+.wild__content p {
+    color: orange;
+}
+
+.wild__btn {
+    margin: 50px 350px;
+}
+
+.img-card {
+    position: absolute;
+    top: 300px;
+    left: 0px;
+}
+
+.img-wild {
+    position: absolute;
+    top: 400px;
+    right: 0px;
+}
+
+/* icon icon icon icon icon icon icon icon icon icon icon icon */
+/* icon icon icon icon icon icon icon icon icon icon icon icon */
+/* icon icon icon icon icon icon icon icon icon icon icon icon */
+
+.icon {
+    padding: 20px;
+    background-color: rgba(111, 30, 170, 1);
+    display: flex;
+}
+
+.icon__img {
+    display: flex;
+    gap: 80px;
+}
+
+/* footer footer footer footer footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer footer footer footer footer */
+/* footer footer footer footer footer footer footer footer footer footer footer */
+
+
+.footer {
+    background-color: rgba(72, 21, 109, 1);
+    color: rgba(194, 130, 240, 1);
+    padding: 50px;
+}
+
+.footer__menu ul {
+    list-style-type: none;
+}
+
+.footer__menu ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.footer__title {
+    padding: 0 0 0 40px;
+    color: white;
+}
+
+.footer__menu ul li a:hover {
+    color: orange;
+    transition: 0.3s;
+}
+
+.fa-brands {
+    color: #000;
+}
+
+
+
+
+@media (max-width:768px) {
+    .row {
+        display: block;
+    }
+}
+
+@media (max-width:768px) {
+    .wild__card img {
+        padding: 60px;
+    }
+
+    .wild__card {
+        margin: 20px 0;
+    }
+
+    .wild__content {
+        padding: 10px 50px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .pets__card {
+        display: block;
+    }
+
+    .img-pets {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:992px) {
+    .pets__img{
+        display: none;
+    }
+}
+
+@media (max-width:768px) {
+    .icon__img{
+        display: block;
+    }
+    .icon__img img{
+        padding: 10px;
+    }
+}
+
+@media (max-width:992px) {
+    .icon__img{
+        display: block;
+    }
+    .icon__img img{
+        padding: 10px;
+    }
+}
+
+@media (max-width:768px) {
+    .container{
+        min-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+@media (max-width:768px) {
+    .header__btn{
+        padding: 0 140px;
+    }
+}
+
